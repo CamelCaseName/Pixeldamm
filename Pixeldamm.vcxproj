@@ -71,14 +71,14 @@
     </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="F:\Lenny\source\repos\Pixelbach\Pixelbach\Pixelbach.cpp" />
+    <ClCompile Include="..\Pixelbach\Pixelbach\Pixelbach.cpp" />
     <ClCompile Include="Pixeldamm.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">MaxSpeed</Optimization>
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">MaxSpeed</Optimization>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="F:\Lenny\source\repos\Pixelbach\Pixelbach\Pixelbach.h" />
+    <ClInclude Include="..\Pixelbach\Pixelbach\Pixelbach.h" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <Link>
